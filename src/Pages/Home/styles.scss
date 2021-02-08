@@ -1,0 +1,37 @@
+.home-container {
+  margin-top: 180px;
+  margin-left: 120px;
+  width: 100%;
+  display: flex;
+  max-width: 1440px;
+}
+
+.home-content {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    color: #062847;
+    letter-spacing: 0.02em;
+  }
+
+  .subtitle {
+    margin-top: 24px;
+    font-family: Red Hat Display;
+    font-size: 20px;
+    line-height: 36px;
+    height: 216px;
+    width: 612px;
+    color: #5a6774;
+    display: flex;
+    justify-content: center;
+  }
+}
